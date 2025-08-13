@@ -1,0 +1,17 @@
+# env
+.env
+.env.*
+!.env.example
+
+# сборка и зависимости
+.next/
+node_modules/
+
+# большие бинарники/артефакты — не храним в Git
+public/downloads/
+*.zip
+*.mp4
+*.psd
+*.ai
+*.ttf
+*.otf

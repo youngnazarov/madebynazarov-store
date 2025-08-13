@@ -1,0 +1,44 @@
+[
+  {
+    "id": "notion-work",
+    "slug": "notion-work",
+    "title": "Notion: Продуктивность для работы",
+    "summary": "Шаблон для задач, целей, фокуса и контроля дедлайнов.",
+    "price": 490,
+    "currency": "RUB",
+    "thumbnail": "/products/notion-work.png",
+    "tags": [
+      "Notion",
+      "Работа",
+      "Продуктивность"
+    ]
+  },
+  {
+    "id": "notion-study",
+    "slug": "notion-study",
+    "title": "Notion: Продуктивность для учёбы",
+    "summary": "Учебные цели, расписание, дедлайны и контроль прогресса.",
+    "price": 490,
+    "currency": "RUB",
+    "thumbnail": "/products/notion-study.png",
+    "tags": [
+      "Notion",
+      "Учёба",
+      "Продуктивность"
+    ]
+  },
+  {
+    "id": "excel-fin-freedom",
+    "slug": "excel-fin-freedom",
+    "title": "Excel: Таблица финансовой свободы",
+    "summary": "Учёт доходов/расходов, долги, бюджеты, чек-листы и советы.",
+    "price": 590,
+    "currency": "RUB",
+    "thumbnail": "/products/excel-fin.png",
+    "tags": [
+      "Excel",
+      "Финансы",
+      "Таблица"
+    ]
+  }
+]

@@ -1,0 +1,1 @@
+export default function Page(){return (<div className='prose max-w-none'><h1>Блог</h1><p>Скоро здесь будут статьи о продуктивности и маркетинге.</p></div>)}

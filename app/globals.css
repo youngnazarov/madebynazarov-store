@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { overflow-x: hidden; }
+/* Перенос длинных строк на мобильных */
+.prose, p { overflow-wrap: anywhere; }
+
+body { font-family: var(--font-inter), system-ui, sans-serif; }
+h1,h2,h3,.font-display { font-family: var(--font-manrope), var(--font-inter), sans-serif; }
+
+/* Кнопки */
+.btn{
+  @apply inline-flex items-center justify-center rounded-2xl border px-4 py-2 text-sm font-medium transition border-gray-200 hover:border-gray-300 hover:bg-gray-50;
+}
+.btn-primary{
+  @apply bg-blue-600 text-white border-blue-600 hover:bg-blue-700;
+}
+.card{ @apply rounded-2xl border border-gray-200 p-4 shadow-sm bg-white/70 backdrop-blur; transition: transform .2s ease, box-shadow .2s ease; }
+.card:hover{ transform: translateY(-2px); box-shadow: 0 12px 24px rgba(0,0,0,.06); }
+.btn-pay{
+  @apply inline-flex items-center justify-center rounded-2xl px-5 py-3 text-base font-semibold
+         text-white shadow-sm border border-blue-600 bg-gradient-to-r from-blue-600 to-blue-500
+         transition-transform;
+}
+.btn-pay:hover{ @apply from-blue-700 to-blue-600; transform: translateY(-1px); }
+.btn-pay:active{ transform: translateY(0); }
+.btn-pay:focus{ @apply outline-none ring-2 ring-offset-2 ring-blue-500; }
+.btn-pay[disabled]{ @apply opacity-60 cursor-not-allowed; }
+.btn-pay .shine{
+  content: ""; position: absolute; inset: -1px;
+  background: linear-gradient(90deg,transparent,rgba(255,255,255,.25),transparent);
+  transform: translateX(-120%); transition: transform .7s ease;
+}
+.btn-pay:hover .shine{ transform: translateX(120%); }
+.btn-pay-wrap{ position: relative; display:inline-flex; }
